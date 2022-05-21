@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" href="css1.css">
+<title>Patient Registration form</title>
+
+<h1 text-align="right">Patient Registration Form </h1>
+
+<div>
+  <label>Patients Name First Middle Last</label>
+  <input type="text" id="First Name" name="firstname">
+  
+  <label>Patient's Home Phone Number:</label>
+  <input type="number" id="phonenumber" name="phonenumber">
+  <label> Alternate phone number (</label>
+  <input type="checkbox" name="cell" value="cell">
+  <label for="Alternative phone number">cell or</label>
+  <input type="checkbox" name="phonenumber" value="phonenumber">
+  <label for="Alternative phone number">work)</label>
+  <input type="text" id="alternativephonenumber" name="Alternative phone number">
+</div>
+<div>
+  <label> E-Mail Address </label>
+  <input type="email">
+</div>
+
+<div>
+  <label>Address</label>
+  <input type="text" id="Address" name="Address">
+  <label>Apt.#</label>
+  <input type="text" id="Apt" name="Apt">
+
+  <label>City</label>
+  <input type="text" id="City" name="City">
+  <label>state</label>
+  <input type="text" id="state" name="state">
+  <label>Zip</label>
+  <input type="text" id="zip" name="zip">
+</div>
+
+<div>
+  <label>Date of Birth</label>
+  <input type="date;month;year" id="date" name="date">
+  <label>Age</label>
+  <input type="number" id="Age" name="Age">
+  <label>Sex:</label>
+  <label for="M">M</label>
+  <input type="radio" id="M" name="sex">
+  <label for="F">F</label>
+  <input type="radio" id="F" name="sex">
+  <label>Social Security Number</label>
+  <input type="text" id="SSN" name="SSN">
+</div>
+
+<div>
+  <label>Marital Status:</label>
+  <input type="checkbox" id="married" name="Marital Status">
+  <label for="married">Married</label>
+  <input type="checkbox" id="Single" name="Marital Status">
+  <label for="Single">Single</label>
+  <input type="checkbox" id="Divorced" name="Marital Status">
+  <label for="Divorced">Divorced</label>
+  <input type="checkbox" id="Widowed" name="Marital Status">
+  <label for="Widowed">Widowed</label>
+</div>
+
+<div>
+  <label>Patient's Employer:</label>
+  <input type="text" id="Patientemployer" name="Patientemployer">
+  <label>Employment Status:</label>
+  <input type="checkbox" id="fulltime" name="Employment Status">
+  <label for="fulltime">Full Time</label>
+  <input type="checkbox" id="parttime" name="Employment Status">
+  <label for="parttime">Part Time</label>
+  <input type="checkbox" id="unemployed" name="Employment Status">
+  <label for="unemployed">Unemployed</label>
+  <input type="checkbox" id="retired" name="Employment Status">
+  <label for="retired">Retired</label>
+  <input type="checkbox" id="student" name="Employment Status">
+  <label for="student">Student</label>
+  <input type="checkbox" id="other" name="Employment Status">
+  <label for="other">Other:</label>
+  <input type="checkbox" id="other" name="other">
+</div>
+
+<div>
+  <label>Emergency Contact:</label>
+  <input type="text" id="Emergencycontact" name="Emergencycontact">
+  <label>Relationship to Patient:</label>
+  <input type="text" id="relationtopatient" name="relationtopatient">
+</div>
+
+<div>
+  <label>Address</label>
+  <input type="text" id="Address" name="Address">
+  <label>Phone Number</label>
+  <input type="text" id="phonenumber" name="phonenumber">
+</div>
+
+<div>
+  <h3>INSURANCE INFORMATION </h3>
+
+  <label>Primary Insurance:</label>
+  <input type="text" id="Primary Insurance" name="Primary Insurance">
+  <label>Secondary Insurance:</label>
+  <input type="text" id="Secondary Insurance" name="Secondary Insurance">
+</div>
+
+<div>
+  <label>Patient is subscriber/Policy Holder:</label>
+  <select name="Patient is subscriber/Policy Holder" id="Policyholder">
+    <option>yes</option>
+    <option>no</option>
+  </select>
+
+  <label>Patient is subscriber/Policy Holder:</label>
+  <select name="Patient is subscriber/Policy Holder" id="Policyholder">
+    <option>yes</option>
+    <option>no</option>
+  </select>
+</div>
+
+<div>
+  <h3>INSURANCE INFORMATION(IF OTHER THAN PATIENT).We will request to scan your ID and insurance card</h3>
+  <label>Subscription/Policy holder:</label>
+  <input type="text" id="Primary Insurance" name="subscription/Policy holder">
+  <label>Relationship to patient:</label>
+  <input type="text" id="Primary Insurance" name="Relationship to patient">
+</div>
+<div>
+  <label>Address</label>
+  <input type="text" id="Address" name="Address">
+</div>
+<div>
+
+  <label>Social Security Number:</label>
+  <input type="text" id="Primary Insurance" name="social security number">
+</div>
+<div>
+  <label>Date of Birth:</label>
+  <input type="date" id="Date of Birth" name="Date of Birth">
+</div>
+<div>
+  <label>His or Her Employer:</label>
+  <input type="text" id="Employer" name="Employer">
+  <label>Work Phone Number:</label>
+  <input type="text" id="phonenumber" name="work phone number">
+</div>
+<div>
+  <h3>RELEASE OF INFORMATION</h3>
+  <p>I hereby give permission to the person(s) listed below to receive information about the care of the above named
+    patient.</p>
+</div>
+<div>
+  <label>Name(s):</label>
+  <input type="text" id="names" name="Name(s)">
+  <label>Relationship to patient:</label>
+  <input type="text" id="Relationship to patient" name="Relationship to patient">
+</div>
+
+<div>
+  <p>Inova medical group reserves the right to charge a fee for any scheduled visit that are:</p>
+  <ol>
+    <li>Cancelled with less than 24 hours notice.</li>
+    <li>Are missed without calling to cancel(no show)</li>
+  </ol>
+  <p>Cancellation Fee schedule:New patient $50.00; Established Patient:$35.00</p>
+  <label>Patient/Parent or Guardian Signature:</label>
+  <input type="text" id="Signature" name="Signature">
+  <label>Date:</label>
+  <input type="text" id="Date" name="Date">
+</div>
+
+
+</body>
+</style>
+
+</html>
